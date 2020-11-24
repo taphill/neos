@@ -9,3 +9,7 @@
 
 # Ignore application configuration
 /config/application.yml
+
+# Don't check in credentials 
+config/env.yml
+config/env.yml.example

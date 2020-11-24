@@ -2,10 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.2)
+    envyable (1.2.0)
+      thor (>= 0.18.1, < 2.0)
     faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
-    figaro (1.1.1)
-      thor (~> 0.14)
     method_source (0.9.2)
     minitest (5.14.0)
     multipart-post (2.1.1)
@@ -19,8 +19,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  envyable
   faraday
-  figaro
   minitest
   o_stream_catcher
   pry
