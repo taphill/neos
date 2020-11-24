@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'near_earth_objects'
+require './lib/near_earth_objects'
 
 class NearEarthObjectsTest < Minitest::Test
   def test_a_date_returns_a_list_of_neos
