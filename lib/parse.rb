@@ -2,7 +2,7 @@ require 'json'
 require './env_helper'
 require_relative 'faraday_wrapper'
 
-class Asteroid
+class Parse
   def self.all_data_on(date)
     conn = FaradayWrapper.connection(
       url: 'https://api.nasa.gov',
